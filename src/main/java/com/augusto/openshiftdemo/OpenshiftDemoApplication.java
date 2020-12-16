@@ -13,7 +13,7 @@ public class OpenshiftDemoApplication {
 
     @GetMapping
     public ResponseEntity<Object> demo() {
-        return ResponseEntity.ok().body("demo");
+        return ResponseEntity.ok().body("demo webhook");
     }
 
     public static void main(String[] args) {
